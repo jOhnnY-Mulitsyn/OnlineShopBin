@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap">
+</head>
+<body>
+    
+  <div class="big-container">
+    <div class="container">
+        <div class="top">
+            <span class="reports">Отчетов: <span class="sum-reports">0</span></span>
+            <label class="check-wrap">
+                <span class="all" style="margin-right: 8px">Выбрать все</span>
+                <input class="visually-hidden checkbox" type="checkbox">
+                <span class="visible-check visible-check__all"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="items container">
+    <!--контейнер для карточек-->
+    </div>
+  </div>
+
+    <div class="request">
+        <button class="btn-request active">Оформить заявку<br><span style="font-size: 12px">Отчетов: </span><span class="sum-request" style="font-size: 12px">6 </span>, <span class="sum-all" style="font-size: 12px">188 000 </span> &#8381</button>
+
+        <button class="btn-request unactive-first">Оформить заявку<br><span style="font-size: 12px">Отчеты не выбраны</span></button> <!--неактивная 1 экран-->
+
+        <button class="btn-request unactive-second">Оформить заявку</button> <!--неактивная 4 экран-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
